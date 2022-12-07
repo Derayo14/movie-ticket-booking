@@ -1,0 +1,138 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.title{
+      background-color: goldenrod;
+    height:100px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: comic-sans;
+      
+}
+.subtext{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    color: black;
+}
+h3{
+   padding-right: 100px;
+}
+div.leftside{
+    float: left;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+div.rightside{
+    float: right;
+    margin-top: 15px;
+}
+div.box{
+    float: right;
+    box-sizing: border-box;
+    color: black;
+    display: grid;
+    height: 450px;
+    width: 500px;  
+    margin-top: 40px;
+    margin-right: 190px; 
+    text-align: center;
+    border: 1px  ;
+    background-color: white;
+    align-content: flex-end;
+    border-color: rgb(226, 226, 226);
+    border-radius: 8px;
+   
+}
+form{
+    float: right;
+    height: 50%;
+    width: 0.01%;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align:initial;  
+    border-radius: 8px;    
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    border-color:rgb(255, 250, 250);
+    border-radius: 8px;
+  }
+ 
+.prompt{
+    width: 400px;
+    height: 30px;
+    display: flex;
+}
+
+button.but1{
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    color: white;
+  }
+a{
+    text-decoration: none;
+}
+button {
+    color: white;
+    background-color: goldenrod;
+    text-decoration: none;
+    width: 240px;
+    height: 45px; 
+    margin-left:50px ;
+    margin-right: 50px;
+    align-content: center;   
+    text-align: center;
+    border-radius: 8px;
+}
+.href{
+    color: white;
+}
+@media screen and (max-width: 789px){
+    div.leftside{
+        align-content: center;
+        margin-top: 10px;
+        margin-left: 200px;
+    } 
+    p.txt1{
+        margin-left: 40px;
+    } 
+    b.b1{
+         margin-left: 250px;
+    }
+    b.b2{
+        margin-left: 250px;
+    }
+    h2.txt2{
+         margin-left: 100px;
+    }
+    div.box{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    h2.title{
+        font-size: 35px;
+        height: 50px;
+    }
+}
+    
+
+    
+    
